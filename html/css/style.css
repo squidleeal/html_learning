@@ -70,3 +70,14 @@ select:focus {
 .button:active {
     background-color: #3e8e41; /* Cor do botão ao clicar */
 }
+
+.date {
+    border : 2px solid #000000; /* Borda com cor */
+    background-color: #a73c3c;
+    font-size: 16px; /* Tamanho da fonte */
+    color: #1a1919; /* Cor do texto */
+    margin-top: 10px; /* Margem superior */
+    text-align: center; /* Centraliza o texto */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+}
