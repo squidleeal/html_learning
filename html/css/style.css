@@ -1,6 +1,6 @@
 /* Estilo para o corpo da página */
 body {
-    background-image: url("C:/Users/Vitor/Downloads/o furru/GlitoDraws1.png"); /* Imagem de fundo */
+    background-image:url("../images/GlitoDraws1.png"); /* Imagem de fundo */
     background-position: center; /* Centraliza a imagem */
     font-family: Arial, sans-serif; /* Define a fonte padrão */
 }
