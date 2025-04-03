@@ -1,36 +1,72 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
 <head>
-<h2>sim sim sim </h2>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Projeto em HTML</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    Selecione seu furry favorito:
-<select id="mySelect" onchange="myFunction()">
-  <option value="0">Lobo</option>
-  <option value="1">Gato</option>
-  <option value="2">Lontra</option>
-  <option value="3">Sim</option>
-  <option value="4">Cavalo</option>
-  </select>
+    <!-- Título principal -->
+    <h2 class="center">Meu primeiro projeto em HTML</h2>
 
-  <br><br>
+    <!-- Caixa principal -->
+    <div class="box">
+        <!-- Seção de seleção -->
+        <h1>Furrys</h1>
+        <p>Selecione seu furry favorito:</p>
+        <select id="mySelect" onchange="myFunction()">
+            <option value="0">Lobo</option>
+            <option value="1">Gato</option>
+            <option value="2">Lontra</option>
+            <option value="3">Sim</option>
+            <option value="4">Cavalo</option>
+        </select>
 
-  <img id="myImg" src="c:\Users\Vitor\Downloads\o furru\nonydraws5.png" width="250" height="100">
-  <div input type="date"> selecione a data que voce virou furru</div>
- <a href="https://e621.net"> clque aqui se voce é um degenerado</a>
-<br><br>
-Que dia voce faz aniversario?
-<br><br>
-  <input type="date"> 
-  <br><br>
-  <input type="text" placeholder="DIGITE O NOME DO SEU FURSONA">
-  <br><br>
-  <input type="checkbox" name="jegue"> eu sou um jegue
-  <br><br>
-  <input type="button" onlclick="alert('que coisa hein')" value="penis">
+        <br><br>
+
+        <!-- Imagem -->
+        <img id="myImg" src="c:\Users\Vitor\Downloads\o furru\nonydraws5.png" width="250" height="100" alt="Imagem do furry">
+
+        <br><br>
+
+        <!-- Data de transformação -->
+        <label for="furryDate">Selecione a data que você virou furry:</label>
+        <input type="date" id="furryDate">
+
+        <br><br>
+
+        <!-- Link externo -->
+        <a href="https://e621.net" target="_blank">Clique aqui se você é um degenerado</a>
+
+        <br><br>
+
+        <!-- Data de aniversário -->
+        <label for="birthday">Que dia você faz aniversário?</label>
+        <input type="date" id="birthday">
+
+        <br><br>
+
+        <!-- Nome do fursona -->
+        <input type="text" placeholder="Digite o nome do seu fursona">
+
+        <br><br>
+
+        <!-- Checkbox -->
+        <input type="checkbox" id="jegue" name="jegue">
+        <label for="jegue">Eu sou um jegue</label>
+
+        <br><br>
+
+        <!-- Botão -->
+        <input type="button" onclick="alert('voce é uma pessoa incrive, nunca desista de ser quem voce é')" value="Clique aqui">
+    </div>
 </body>
 
 <footer>
-
-
+    <!-- Rodapé vazio -->
 </footer>
+
 </html>
