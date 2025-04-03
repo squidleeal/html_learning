@@ -3,6 +3,7 @@ body {
     background-image:url("../images/GlitoDraws1.png"); /* Imagem de fundo */
     background-position: center; /* Centraliza a imagem */
     font-family: Arial, sans-serif; /* Define a fonte padrão */
+    
 }
 
 /* Estilo para o select */
@@ -80,4 +81,38 @@ select:focus {
     text-align: center; /* Centraliza o texto */
     font-family: Arial, sans-serif; /* Fonte padrão */
     border-radius: 5px; /* Bordas arredondadas */
+}
+
+.search {
+    width: 50%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    border: 2px solid #000000; /* Borda com cor */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #a73c3c; /* Cor de fundo */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    cursor: pointer; /* Cursor ao passar o mouse */
+    color: white; /* Cor do texto */
+}
+.search:hover {
+    border-color: #45a049; /* Cor da borda ao passar o mouse */
+}
+
+.text-botton {  
+    text-align: center; /* Centraliza o texto */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    background: linear-gradient(to right, #04fd25, #ffee00, rgb(0, 0, 255));
+}
+
+.checkbox-container {
+    margin-right: 10px; /* Margem à direita */
+    cursor: pointer; /* Cursor ao passar o mouse */
+}
+
+.checkbox {
+    cursor: pointer; /* Cursor ao passar o mouse */
+    border: 2px solid #000000; /* Borda com cor */
+    background-color: #a73c3c; /* Cor de fundo */
+
 }
