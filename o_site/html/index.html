@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Projeto em HTML</title>
+    <link rel="stylesheet" href="../css/style.css"/>
+   
+</head>
+
+<body>
+    <!-- Título principal -->
+    <h2 class="center">Meu primeiro projeto em HTML</h2>
+
+    <!-- Caixa principal -->
+    <div class="box">
+        <!-- Controle deslizante -->
+        <input type="range" class="range" min="0" max="100" value="50" id="myRange">
+        <div style="text-align: center;">(não sei o que isso faz)</div>
+
+        <br><br>
+
+        <a href="Redirect.html" class="button">Nova aba</a>
+
+        <br><br>
+
+        <!-- Seção de seleção -->
+        <h1>Furrys</h1>
+        <p>Selecione seu furry favorito:</p>
+        <select id="mySelect" onchange="myFunction()">
+            <option value="0">Lobo</option>
+            <option value="1">Gato</option>
+            <option value="2">Lontra</option>
+            <option value="3">Sim</option>
+            <option value="4">Cavalo</option>
+            <option value="5">Sety</option>
+        </select>
+
+        <br><br>
+
+        <!-- Imagem -->
+        <img id="myImg" src="../images/fish-spin-sha.gif" width="250" height="150" alt="FishSpin">
+
+        <br><br>
+
+        <!-- Data de transformação -->
+        <label for="furryDate">Selecione a data que você virou furry:</label>
+        <input type="date" class="date" id="furryDate">
+
+        <br><br>
+
+        <!-- Link externo -->
+        <a href="https://e621.net" target="_blank">Clique aqui se você é um degenerado</a>
+
+        <br><br>
+
+        <!-- Data de aniversário -->
+        <label for="birthday">Que dia você faz aniversário?</label>
+        <input type="date" class="date" id="birthday">
+
+        <br><br>
+
+        <!-- Nome do fursona -->
+        <input type="text" placeholder="Digite o nome do seu fursona">
+
+        
+        <br><br>
+
+        <!-- Botões de rádio -->
+        <div class="checkbox-container">
+            <p>Você acha o squid bonito?</p>
+            <input type="radio" id="check" name="check" value="sim" class="radio">
+            <label for="check">Sim</label>
+            <input type="radio" id="check2" name="check" value="nao" class="radio" disabled>
+            <label for="check2">Não</label>
+        </div>
+
+        <br><br>
+
+       <!-- Upload de imagem -->
+    <div class="image-upload">
+        <label for="fileInput" class="img-button">Mande uma foto do seu fursona:</label>
+        <input type="file" id="fileInput" accept="image/*" style="display: none;">
+        
+        <br><br>
+
+    <!-- Elemento para pré-visualização da imagem -->
+    <img id="preview" src="" alt="Pré-visualização da imagem" style="display: none; width: 300px; margin-top: 20px;">
+    </div>
+
+        <br><br>
+
+        <!-- Campo de pesquisa -->
+        <input type="search" class="search" placeholder="Não há nada para se pesquisar">
+
+        <br><br>
+
+        <!-- Checkbox -->
+        <div class="checkbox-container">
+            <input type="checkbox" id="jegue" name="jegue" class="checkbox">
+            <label for="jegue">Eu terminei de preencher tudo</label>
+        </div>
+
+        <br><br>
+
+        <!-- Botão -->
+<input type="button" class="button" id="checkButton" value="Verificar">
+    </div>
+   
+    <br><br>
+
+    <!-- Caixa adicional -->
+    <div class="box">
+        <p>
+            Só estou tentando dar meu máximo em aprender 3 linguagens de uma vez para poder usar no mercado
+            profissional, embora eu esteja com muita preguiça de aprender JavaScript.
+        </p>
+    </div>
+
+
+    <script src="../JavaScript/Script.js"></script>
+</body>
+
+<footer>
+    <div class="text-botton">
+        <p>
+            Esse site é direcionado para os aprendizados de <strong>Vito</strong>. Não sei muito o que fazer aqui, mas está sendo legal.
+        </p>
+    </div>
+</footer>
+
+</html>

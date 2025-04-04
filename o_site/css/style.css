@@ -19,7 +19,7 @@ select {
 }
 
 select:hover {
-    border-color: #45a049; /* Cor da borda ao passar o mouse */
+    border-color: #66130e; /* Cor da borda ao passar o mouse */
 }
 
 select:focus {
@@ -55,10 +55,10 @@ select:focus {
 
 /* Estilo para os botões */
 .button {
-    background-color: #4CAF50; /* Cor de fundo do botão */
-    color: white; /* Cor do texto */
+    background-color: #a73c3c; /* Cor de fundo do botão */
+    color: black; /* Cor do texto */
+    border: 2px solid #000000; /* Borda com cor */
     padding: 10px 20px; /* Espaçamento interno */
-    border: none; /* Remove a borda */
     border-radius: 5px; /* Bordas arredondadas */
     font-size: 16px; /* Tamanho da fonte */
     cursor: pointer; /* Cursor ao passar o mouse */
@@ -66,10 +66,10 @@ select:focus {
 }
 
 .button:hover {
-    background-color: #45a049; /* Cor do botão ao passar o mouse */
+    background-color: #582020; /* Cor do botão ao passar o mouse */
 }
 .button:active {
-    background-color: #3e8e41; /* Cor do botão ao clicar */
+    background-color: #582020; /* Cor do botão ao clicar */
 }
 
 .date {
@@ -116,3 +116,54 @@ select:focus {
     background-color: #a73c3c; /* Cor de fundo */
 
 }
+
+/* Estilo para o input range */
+.range {
+    appearance: none; /* Remove o estilo padrão do navegador */
+    -webkit-appearance: none; /* Remove o estilo padrão do navegador (Chrome/Safari) */
+    height: 8px; /* Altura da barra */
+    background: linear-gradient(to right, #020113, #3a3e77); /* Gradiente na barra */
+    border-radius: 5px; /* Bordas arredondadas */
+    outline: none; /* Remove o contorno ao focar */
+    opacity: 0.9; /* Transparência */
+    transition: opacity 0.2s; /* Transição suave ao passar o mouse */
+}
+
+.range:hover {
+    opacity: 1; /* Opacidade total ao passar o mouse */
+}
+
+/* Estilo para o "thumb" (botão deslizante) */
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove o estilo padrão */
+    appearance: none; /* Remove o estilo padrão */
+    width: 15px; /* Largura do botão */
+    height: 15px; /* Altura do botão */
+    background: #a73c3c; /* Cor do botão */
+    border-radius: 50%; /* Botão arredondado */
+    cursor: pointer; /* Cursor ao passar o mouse */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra no botão */
+    transition: background 0.3s; /* Transição suave ao passar o mouse */
+}
+
+.range::-webkit-slider-thumb:hover {
+    background: #722929; /* Cor do botão ao passar o mouse */
+}
+
+.img-button {
+    display: inline-block; /* Exibe como bloco em linha */
+    padding: 10px 20px;
+    border: 2px solid #000000; /* Borda com cor */
+    background-color: #a73c3c; /* Cor do botão */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+    background-color: #45a049; /* Cor ao passar o mouse */
+}
+
