@@ -167,3 +167,25 @@ select:focus {
     background-color: #45a049; /* Cor ao passar o mouse */
 }
 
+body {
+   margin:0; /* Remove margens padrão do body */
+    padding:0; /* Remove margens e preenchimento padrão */
+}
+.gallery {
+         width: 36rem;
+            height: 36rem; /* Define a altura da galeria */
+            position: relative; /* Permite o posicionamento absoluto dos itens */
+            display: flex; /* Exibe os itens em linha */
+            overflow: auto; /* Permite rolagem se necessário */
+            scroll-snap-type: x mandatory; /* Habilita o efeito de snap ao rolar */
+}
+
+.gallery img {
+    width: 100%; /* Largura total do item */
+    height: auto; /* Altura automática */
+    position: sticky; /* Permite que o item fique fixo ao rolar */
+    left: 0; /* Alinha à esquerda */
+    flex-shrink: 0; /* Impede que o item encolha */
+    scroll-behavior: smooth; /* Rolagem suave */
+}
+
