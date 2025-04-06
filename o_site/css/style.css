@@ -95,7 +95,7 @@ select:focus {
     color: white; /* Cor do texto */
 }
 .search:hover {
-    border-color: #45a049; /* Cor da borda ao passar o mouse */
+    border-color: #5f2424; /* Cor da borda ao passar o mouse */
 }
 
 .text-botton {  
